@@ -1,2 +1,2 @@
-# Ananta-
+# Ananta
 Ananta - Internet In Box
