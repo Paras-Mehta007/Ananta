@@ -1,29 +1,52 @@
-# Ananta - Offline Knowledge Sharing System
+# Ananta - Offline AI Knowledge Server with LAN-based UI
 
-Ananta is a **peer-to-peer (P2P) offline knowledge sharing system** designed to enable users to share files and content directly with each other without relying on an internet connection. It is ideal for offline environments, hackathons, or situations where network connectivity is limited.
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
+![LAN](https://img.shields.io/badge/LAN-Offline-orange)
+![AI Model](https://img.shields.io/badge/LLaMA3-8B-purple)
+![Multithreading](https://img.shields.io/badge/Multithreading-✔️-brightgreen)
+
+Ananta is a **LAN-based AI knowledge server** that allows multiple clients to interact with a high-performance AI model **without internet access**. It combines a **Python backend** hosting **Meta's LLaMA 3:8B model** with a **frontend UI built using HTML, CSS, and JavaScript** for easy client interaction.  
+
+The system integrates advanced **operating system concepts** like multithreading, mutex, semaphores, and caching to provide a **robust, low-latency, offline AI experience**.
 
 ---
 
-## 🚀 Features
+## 🏗️ Architecture
 
-- **Peer-to-Peer File Sharing**: Direct file transfer between clients over the local network.
-- **Offline Knowledge Server**: Fully functional offline server for storing and retrieving content.
-- **Decentralized Architecture**: Each client can act as a contributor, reducing dependency on a central server.
-- **Simple GUI Interface**: Easy-to-use interface built for fast interaction.
-- **Scalable Design**: Can handle multiple clients efficiently on the same network.
+![Ananta Architecture](assets/architecture.png)
+
+**Flow:**
+- Client (HTML/CSS/JS) ↔ Python Server (LAN TCP/UDP)  
+- Server handles AI requests, caching, and context saving  
+- Multithreading, Mutex, Semaphore ensure concurrency safety  
+
+---
+
+## ✨ Features
+
+| Feature | Icon | Description |
+|---------|------|-------------|
+| Offline AI | 🤖 | LLaMA 3:8B runs fully offline |
+| LAN Networking | 🌐 | TCP/UDP sockets for client-server communication |
+| Context Saving | 🧠 | Maintains conversation across multiple queries |
+| Multithreading | 🧵 | Handles multiple clients concurrently |
+| Caching | ⚡ | Reduces response time for repeated queries |
+| Full-stack UI | 💻 | HTML, CSS, JS frontend for user interaction |
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **Python 3**
-- **Tkinter / PyQt5** for GUI
-- **Sockets (TCP/UDP)** for networking
-- **Threading** for handling multiple connections
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend / Server:** Python 3, Meta LLaMA 3:8B  
+- **Networking:** TCP/UDP sockets for LAN  
+- **Concurrency & OS Concepts:** Multithreading, mutexes, semaphores  
+- **Caching & Context Management**  
 
 ---
 
-## 💻 Installation
+## 💻 Installation & Usage
 
 1. **Clone the repository**
 ```bash
