@@ -14,7 +14,7 @@ The system integrates advanced **operating system concepts** like multithreading
 
 ## 🏗️ Architecture
 
-![Ananta Architecture](assets/architecture.png)
+![Ananta Architecture](src/Ananta.png)
 
 **Flow:**
 - Client (HTML/CSS/JS) ↔ Python Server (LAN TCP/UDP)  
