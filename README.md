@@ -44,11 +44,6 @@ The system integrates advanced **operating system concepts** like multithreading
 - **Concurrency & OS Concepts:** Multithreading, mutexes, semaphores  
 - **Caching & Context Management**  
 
----
 
-## 💻 Installation & Usage
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/Paras-Mehta007/Ananta-.git
-cd Ananta-
+
